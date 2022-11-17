@@ -1,3 +1,19 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.logo1 {
+  font-family: "Raleway", sans-serif;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.3;
+  color: #2196f3;
+}
+.logo2 {
+  font-family: "Raleway", sans-serif;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.3;
+  color: #000000;
+}
