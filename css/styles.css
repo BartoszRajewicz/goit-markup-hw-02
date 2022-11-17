@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.logo1 {
+.logo-front {
   font-family: "Raleway", sans-serif;
   font-style: bold;
   font-size: 26px;
@@ -9,7 +9,7 @@ body {
   letter-spacing: 0.3;
   color: #2196f3;
 }
-.logo2 {
+.logo-back {
   font-family: "Raleway", sans-serif;
   font-style: bold;
   font-size: 26px;
