@@ -12,8 +12,8 @@ body {
   text-decoration: none;
   color: #212121;
 }
-.navigation-items .link:hover,
-.navigation-items .link:focus {
+.navigation-items:hover,
+.navigation-items:focus {
   color: #2196f3;
 }
 
