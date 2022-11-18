@@ -11,6 +11,8 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
+  font-weight: 700;
+  letter-spacing: 0.3em;
 }
 .logo-back {
   font-family: "Raleway", sans-serif;
@@ -18,4 +20,6 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #000000;
+  font-weight: 700;
+  letter-spacing: 0.3em;
 }
