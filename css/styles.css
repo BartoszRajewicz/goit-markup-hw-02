@@ -4,6 +4,18 @@ body {
 .link {
   text-decoration: none;
 }
+.navigation-items {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: #212121;
+}
+.navigation-items .link:hover,
+.navigation-items .link:focus {
+  color: #2196f3;
+}
 
 .logo-front {
   font-family: "Raleway", sans-serif;
