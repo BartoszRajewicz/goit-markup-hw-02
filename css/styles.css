@@ -1,23 +1,22 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .link {
   text-decoration: none;
-}
-
-.lists{
-  list-style-type: none;
-}
-.navigation-items {
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
   text-decoration: none;
   color: #212121;
 }
-.navigation-items:hover,
-.navigation-items:focus {
+.link:hover,
+.link:focus {
   color: #2196f3;
+}
+
+.lists {
+  list-style-type: none;
 }
 
 .logo-front {
