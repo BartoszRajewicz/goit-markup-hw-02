@@ -1,5 +1,20 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--headers-color);
+ 
+}
+
+:root {
+  --logo-color: #212121;
+  --logo-sec-color: #2196f3;
+  --contact-color: #757575;
+  --text-color: #ffffff;
+  --paragraph-color: #757575;
+  --headers-color: #212121;
+  --background-color: #e5e5e5;
+  --background-nav-color:#FFFFFF;
+  --background-section-color:#2F303A;
+  --background-photos-color:#F5F4FA;
 }
 
 .link {
@@ -8,11 +23,11 @@ body {
   font-weight: 500;
   line-height: 16.41px;
   text-decoration: none;
-  color: #212121;
+  color:var(--logo-color);
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color:var(--logo-sec-color);
 }
 
 .lists {
@@ -24,7 +39,7 @@ body {
   font-style: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
+  color: var(--logo-sec-color);
   font-weight: 700;
 }
 .logo-back {
@@ -32,6 +47,10 @@ body {
   font-style: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #000000;
+  color:var(--logo-color);
   font-weight: 700;
+}
+
+.contact{
+  
 }
