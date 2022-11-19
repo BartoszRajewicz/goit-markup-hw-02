@@ -63,3 +63,8 @@ body {
 .contact.link:focus {
   color: var(--logo-sec-color);
 }
+.box {
+  width: 1600px;
+  height: 600px;
+  color: var(--background-section-color);
+}
