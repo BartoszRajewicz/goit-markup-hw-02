@@ -4,11 +4,14 @@ body {
 .link {
   text-decoration: none;
 }
+
+.lists{
+  list-style-type: none;
+}
 .navigation-items {
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
-  letter-spacing: 0.2em;
   text-decoration: none;
   color: #212121;
 }
@@ -24,7 +27,6 @@ body {
   line-height: 31px;
   color: #2196f3;
   font-weight: 700;
-  letter-spacing: 0.3em;
 }
 .logo-back {
   font-family: "Raleway", sans-serif;
@@ -33,5 +35,4 @@ body {
   line-height: 31px;
   color: #000000;
   font-weight: 700;
-  letter-spacing: 0.3em;
 }
