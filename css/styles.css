@@ -46,6 +46,7 @@ body {
   font-style: bold;
   font-size: 26px;
   line-height: 31px;
+  border: radius 4px;
   color: var(--logo-color);
   font-weight: 700;
 }
@@ -64,12 +65,36 @@ body {
   color: var(--logo-sec-color);
 }
 
-.header-primary {
+.first-section {
   background-color: var(--background-section-color);
-  padding: 200px 452px 280px;
+  width: 1600px;
+  height: 600px;
+}
+
+.header-primary {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  position: absolute;
+  top: 280px;
+  left: 452px;
   text-transform: uppercase;
   color: var(--text-color);
+}
+
+.first-section > button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--logo-sec-color);
+  border: none;
+  color: var(--text-color);
+  text-align: center;
+  position: absolute;
+  top: 430px;
+  left: 700px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.88;
+  font-family: "Roboto", sans-serif;
 }
