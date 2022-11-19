@@ -50,10 +50,16 @@ body {
   font-weight: 700;
 }
 
-.contact {
+.link > .contact-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
   color: var(--contact-color);
+  text-emphasis: none;
   text-decoration: none;
+}
+
+.link > .contact-link:hover,
+.contact.link:focus {
+  color: var(--logo-sec-color);
 }
