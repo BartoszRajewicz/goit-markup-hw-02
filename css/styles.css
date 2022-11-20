@@ -132,4 +132,14 @@ body {
   top: 800px;
   border-radius: nullpx;
 }
+.images-header{
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-align: center;
 
+}
+.images-list{
+  list-style-type: none;
+}
