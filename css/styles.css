@@ -100,7 +100,6 @@ body {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.88;
-  font-family: "Roboto", sans-serif;
 }
 
 .button {
@@ -203,7 +202,6 @@ body {
   color: var(--logo-sec-color);
 }
 
-
 span.logo-back-sec {
   color: var(--text-color);
   font-family: "Raleway", sans-serif;
@@ -212,4 +210,30 @@ span.logo-back-sec {
   line-height: 31px;
   border: radius 4px;
   font-weight: 700;
+}
+
+.button-list {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.button-items {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--headers-color);
+  background-color: var(--background-photos-color);
+  border: none;
+  text-decoration: none;
+  margin-left: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.button-items:hover,
+.button-items:focus {
+  background-color: var(--logo-sec-color);
+  color: var(--text-color);
 }
