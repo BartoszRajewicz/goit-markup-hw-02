@@ -29,7 +29,7 @@ body {
   color: var(--logo-sec-color);
 }
 
-.lists {
+.control-list {
   list-style-type: none;
 }
 
@@ -106,3 +106,30 @@ body {
 .button {
   cursor: pointer;
 }
+
+.paragraphs-list {
+  list-style-type: none;
+}
+
+.header-paragraph {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--headers-color);
+}
+.paragraph-items {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--paragraph-color);
+  height: 75px;
+  width: 270px;
+  left: 215px;
+  top: 800px;
+  border-radius: nullpx;
+}
+
