@@ -237,3 +237,23 @@ span.logo-back-sec {
   background-color: var(--logo-sec-color);
   color: var(--text-color);
 }
+.industry-list {
+  list-style-type: none;
+}
+
+.industry-items > h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--headers-color);
+}
+
+.industry-items > span {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--paragraph-color);
+}
