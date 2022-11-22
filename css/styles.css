@@ -67,21 +67,16 @@ body {
 
 .first-section {
   background-color: var(--background-section-color);
-  width: 1600px;
-  height: 600px;
+  padding-top: 80px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 94px;
 }
 
 .header-primary {
   font-size: 44px;
-  height: 120px;
-  width: 696px;
-  left: 452px;
-  top: 280px;
-  border-radius: nullpx;
-
   line-height: 1.36;
   text-align: center;
-  position: absolute;
   text-transform: uppercase;
   color: var(--text-color);
 }
@@ -91,12 +86,6 @@ body {
   border: none;
   color: var(--text-color);
   text-align: center;
-  position: absolute;
-  height: 50px;
-  width: 200px;
-  left: 700px;
-  top: 430px;
-  border-radius: 4px;
   text-decoration: none;
   font-size: 16px;
   line-height: 1.88;
@@ -104,6 +93,8 @@ body {
 
 .button {
   cursor: pointer;
+  align-items: center;
+  margin-left: 50%;
 }
 
 .paragraphs-list {
@@ -124,12 +115,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
+  display: block;
   color: var(--paragraph-color);
-  height: 75px;
-  width: 270px;
-  left: 215px;
-  top: 800px;
-  border-radius: nullpx;
 }
 .images-header {
   font-size: 36px;
@@ -142,11 +129,11 @@ body {
   list-style-type: none;
   display: inline-flex;
 }
-.our-team {
+.team {
   background-color: var(--background-photos-color);
   width: 1600px;
 }
-.person-list {
+.team-list {
   list-style-type: none;
 }
 .team-header {
@@ -157,14 +144,14 @@ body {
   text-align: center;
 }
 
-.team-members > h3 {
+.team-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--headers-color);
 }
-.team-members > span {
+.team-job {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -183,18 +170,13 @@ body {
   text-align: left;
   color: var(--text-color);
 }
-.contact-link > a {
+.contact-link {
   color: var(--contact-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
-  height: 21px;
-  width: 231px;
-  left: 215px;
-  top: 2238px;
-  border-radius: nullpx;
   display: block;
 }
 .contact-link > a:hover,
@@ -241,7 +223,7 @@ span.logo-back-sec {
   list-style-type: none;
 }
 
-.industry-items > h3 {
+.industry-name{
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -250,10 +232,34 @@ span.logo-back-sec {
   color: var(--headers-color);
 }
 
-.industry-items > span {
+.industry-item {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--paragraph-color);
+}
+
+.footer-address {
+  color: var(--contact-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+}
+
+.address-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  display: block;
+  color: var(--contact-color);
+  text-decoration: none;
+}
+.address-item:hover,
+.address-item:focus {
+  color: var(--logo-sec-color);
 }
