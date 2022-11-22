@@ -237,7 +237,7 @@ span.logo-back-sec {
   line-height: 1.88;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--paragraph-color);
+  color: var(--contact-color);
 }
 
 .footer-address {
