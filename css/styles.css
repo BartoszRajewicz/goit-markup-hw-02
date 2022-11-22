@@ -223,7 +223,7 @@ span.logo-back-sec {
   list-style-type: none;
 }
 
-h3.industry-name {
+.industry-name {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -232,7 +232,7 @@ h3.industry-name {
   color: var(--headers-color);
 }
 
-span.industry-item {
+.industry-item {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -249,7 +249,7 @@ span.industry-item {
   text-decoration: none;
 }
 
-a.address-item {
+.address-item {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -259,7 +259,7 @@ a.address-item {
   color: var(--contact-color);
   text-decoration: none;
 }
-a.address-item:hover,
-a.address-item:focus {
+.address-item:hover,
+.address-item:focus {
   color: var(--logo-sec-color);
 }
