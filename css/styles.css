@@ -18,14 +18,17 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.control-item {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
   text-decoration: none;
   color: var(--logo-color);
 }
-.link:hover,
-.link:focus {
+.control-item:hover,
+.control-item:focus {
   color: var(--logo-sec-color);
 }
 
@@ -51,7 +54,7 @@ body {
   font-weight: 700;
 }
 
-.link > .contact-link {
+.contact-item {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
@@ -60,16 +63,14 @@ body {
   text-decoration: none;
 }
 
-.link > .contact-link:hover,
-.contact.link:focus {
+.contact-item:hover,
+.contact-item:focus {
   color: var(--logo-sec-color);
 }
 
 .first-section {
   background-color: var(--background-section-color);
   padding-top: 80px;
-  padding-left: auto;
-  padding-right: auto;
   padding-bottom: 94px;
 }
 
@@ -81,7 +82,7 @@ body {
   color: var(--text-color);
 }
 
-.first-section > button {
+.button {
   background-color: var(--logo-sec-color);
   border: none;
   color: var(--text-color);
@@ -89,9 +90,6 @@ body {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.88;
-}
-
-.button {
   cursor: pointer;
   align-items: center;
   margin-left: 50%;
@@ -160,36 +158,19 @@ body {
 }
 .contact-end {
   background-color: var(--background-section-color);
-  height: 252px;
-  width: 1600px;
-}
-.contact-end > address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--text-color);
 }
-.contact-link {
-  color: var(--contact-color);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-decoration: none;
-  display: block;
-}
-.contact-link > a:hover,
-.contact.link > a:focus {
-  color: var(--logo-sec-color);
-}
 
-span.logo-back-sec {
+.logo-back-sec {
   color: var(--text-color);
   font-family: "Raleway", sans-serif;
   font-style: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   border: radius 4px;
   font-weight: 700;
 }
@@ -251,8 +232,7 @@ span.logo-back-sec {
 
 .address-item {
   font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   display: block;
